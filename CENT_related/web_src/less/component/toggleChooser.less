@@ -1,0 +1,39 @@
+.togglechooser-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #666666;
+    font-size: 12px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+.togglechooser-item {
+    padding: 4px 8px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.togglechooser-item:hover {
+    background: #f0f0f0;
+}
+
+.togglechooser-item-selected {
+    color: #111111;
+    background: #FFDC73;
+    border: 1px solid #D8B74D;
+    border-radius: 3px;
+    padding: 4px 8px;
+    font-weight: 400;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 10;
+    text-align: center;
+    margin: -1px 1px -1px -1px;
+}
+
+.togglechooser-item + .togglechooser-item-selected {
+    margin: -1px -1px -1px 1px;
+}

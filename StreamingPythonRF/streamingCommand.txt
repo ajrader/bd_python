@@ -1,0 +1,8 @@
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -D mapred.reduce.tasks=3   -D mapreduce.job.name='Bernico titanic-rf' \
+-file /home/qepz/python-titanic-rf/mapper.py    \
+-mapper /home/qepz/python-titanic-rf/mapper.py  \
+-file /home/qepz/python-titanic-rf/reducer.py  \
+-reducer /home/qepz/python-titanic-rf/reducer.py \
+-input train_clean.csv \
+-output pytanic
+

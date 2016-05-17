@@ -1,0 +1,17 @@
+Field Documentation
+
+CIF File    PIF File    Loss File
+YEAR        YEAR        YEAR
+MONTH       MONTH       MONTH
+STATE       STATE       STATE
+ZONE        ZONE        ZONE
+LINE        LINE        LINE
+BIPD        PIF         COVERAGE
+COMP                    REPORTED_CNT
+COLL                    PAID_CNT
+COV_U                   PENDING_CNT
+COV_W                   CWP
+MPC                     OIE_CNT
+PIP                     SUIT_CNT
+ALL                     PD_AMT 
+                        ALAE
